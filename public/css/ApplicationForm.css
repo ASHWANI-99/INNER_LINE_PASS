@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.application_form{
+    margin: 6.5rem 20px 20px 20px;
+    padding: 0;
+    background: rgb(214, 230, 250);
+    border-radius: 3px;
+}
+.nav_form_af{
+    background: rgb(28, 28, 100);
+    margin: 0;
+    padding: 6px;
+}
+.navbar_af{
+    color: cornsilk;
+}
+.Applicationform{
+    margin:20px 30px;
+    padding: 5px 20px;
+    /* display: flex; */
+    font-size: 15px;
+}
+.block{
+    margin: 7px auto;
+    padding: 0;
+    background: rgb(160, 206, 252);
+    border-radius: 7px;
+}
+.address{
+    background-color: black;
+    color: #fff;
+    padding: 4px 5px 4px 5px;
+    display: flex;
+    flex-direction: row;
+}
+.address1_list{
+    padding: 15px 25px 12px 25px;
+    margin: 2px;
+
+}
+.permanent_adress{
+    margin: 7px auto;
+    padding: 0;
+    background: rgb(168, 168, 168);
+    border-radius: 7px;
+}
+.address{
+    background-color: black;
+    color: #fff;
+    padding: 4px 5px 4px 5px;
+}
+.address2_list{
+    padding: 15px 25px 12px 25px;
+    margin: 2px;
+
+}
+.save_btn{
+    background: blue;
+    margin: 6px 0 30px 60rem;
+    padding: 7px 9px 7px 9px;
+    border-radius: 5px;
+}
+.save_btn:hover{
+    transform: scale(1.025);
+    background: rgb(24, 24, 126);
+}
+.save{
+    color: cornsilk;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+input{
+    outline: none;
+    margin: 8px;
+    padding: 4px;
+    font-size:14px ;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    width: 45%;
+}
+input#check{
+    margin: 0;
+    padding: 0;
+}
+textarea{
+    outline: none;
+    margin: 8px;
+    padding: 4px;
+    font-size:14px ;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    width: 50%;
+    height: 80px;
+}
+select{
+    outline: none;
+    margin: 8px 8px 0 8px;
+    padding: 4px 4px 0 4px;
+    font-size:14px ;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+    width: 45%;
+}
+#checkbox{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    color: brown;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+}
